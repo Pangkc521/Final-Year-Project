@@ -1,0 +1,7 @@
+{
+  "name": "MyGroccer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

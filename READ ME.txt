@@ -1,0 +1,22 @@
+My Groccer Application Deployment
+1.	Install Node.js and NPM.
+2.	Install Android Studio with SDKs.
+3.	Enter “npm install -g @ionic/cli” in terminal to install ionic.
+4.	Open “My Groccer” file in terminal.
+5.	Enter “ionic build” command to builds the Ionic application and prepares it for deployment on android platform.
+6.	Enter “npx cap copy android” command to copies the necessary files and dependencies required for the Capacitor Android platform to the project's Android directory.
+7.	Enter “npx cap sync android” command to synchronizes the project with the Capacitor Android platform, ensuring that all necessary files and dependencies are up to date and correctly configured.
+8.	Enter “npx cap open android” command to opens the Android Studio IDE and the project in it, allowing you to make further changes to the Android application or to build and deploy it onto an Android device.
+9.	After open the project, then compile and build the project and get the application’s apk file.
+10.	Install the apk file in your Android smartphone device with the minimum requirement of SDK level 23 which is Android 6.0.
+
+
+How to Use Take Your Food! Application
+1.	Run the My Groccer application after installing it.
+2.	Firstly, create an account to use the application.
+3.	After successfully created an account, you will be logged in to the application and directed to the home page.
+4.	Select the add button to add new food item.
+5.	Choose an input method (Scan QR code, Scan Barcode or Text Input) to input the food item name and expiry date.
+6.	After added the food item successfully, you will be directed to the home page and the total food items will be updated to show you how many food items you total have.
+7.	You can select “View All Food Item” button to view, add more food item, edit or delete a particular food item from the record.
+8.	You can select the menu tab to navigate to home page, settings page or logout to logout current user account.
